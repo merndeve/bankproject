@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="banking.css">
+    <title>Bank Account details</title>
+</head>
+<body>
+    <header >You have  <span class=" bank-account">  Succesfully loged in </span>  !!!!!</header>
+
+    <main class="container">
+        <div class="main-div">
+            <div class="deposit-div">
+                <h3>Deposit</h3>
+                <h2 >$ <span id="deposit-total">000</span></h2>
+            </div>
+            <div class="withdraw-div">
+                <h3>Withdraw</h3>
+                <h2 >$ <span id="withdraw-total">000</span></h2>
+            </div>
+            <div class="balance-div">
+                <h3>Balance</h3>
+                <h2>$ <span id="balance-input">18500</span></h2>
+            </div>
+           
+            
+        </div>
+         <!-- deposit and withdraw section -->
+         <section class="dw-section ">
+            <div class="dw">
+                <h3>Deposit Amount</h3>
+               
+            <input id="deposit-input" class="deposit-amount" type="text" placeholder="Enter Deposit amount"> 
+            <button id="deposit-button" >Deposit</button>
+            </div>
+            <div class="dw">
+                <h2>Withdraw Amount</h2>
+            <input id="withdraw-input" class="withdraw-amount" type="text" placeholder="Enter withdraw amount"> 
+            <button id="withdraw-button" >Withdraw</button>
+            </div>
+            
+        </section>
+
+    </main>
+    
+    <script src="banking.js"></script>
+    <script src="login.js"></script>
+    
+</body>
+</html>

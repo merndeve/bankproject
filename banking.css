@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bank-account{
+    color: #8b5cf6;
+}
+.main-div{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+}
+.deposit-div{
+    background-color: skyblue;
+    padding: 20px 25px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.deposit-div h3{
+    font-size: 25px;
+}
+.deposit-div h2{
+    font-size: 35px;
+}
+.withdraw-div{
+    background-color: rgb(212, 230, 56);
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.withdraw-div h3{
+    font-size: 25px;
+}
+.withdraw-div h2{
+    font-size: 35px;
+}
+.balance-div{
+    background-color: rgb(54, 197, 78);
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.balance-div h3{
+    font-size: 25px;
+}
+.balance-div h2{
+    font-size: 35px;
+}
+
+/* deposit and withdraw section */
+.dw-section{
+    
+    margin-top: 40px;    
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto  ;
+     padding: 10px;    
+}
+.deposit-amount{
+    width: 200px;
+    margin: 10px 0;
+    padding: 8px 0;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+#deposit-button{
+    padding: 10px 20px;
+    background-color: #05a813;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 15px 0 40px 0;
+    border-radius: 10px;
+}
+#deposit-button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.dw{
+    background-color: skyblue;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.dw input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+.withdraw-amount{
+    width: 200px;
+    margin: 10px 0;
+    padding: 8px 0;
+    border: 1px solid rgb(196, 39, 11);
+    border-radius: 5px;
+    display: block;
+}
+
+#withdraw-button{
+    padding: 10px 20px;
+    background-color: #b12e1d;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 15px 0 40px 0;
+    border-radius: 10px;
+}
+

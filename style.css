@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: auto
+   
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+.bank-account{
+    color: #8b5cf6;
+}
+
+.logIn-section{
+   width: 650px;
+   margin: auto;
+   text-align: center;
+   background-color: #99f6e4;
+   border-radius: 8px;
+}
+.logIn-section h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.input-email{
+    width: 400px;
+    margin: 10px 0;
+    padding: 8px 0;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#submit-button{
+    padding: 10px 20px;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin: 15px 0 40px 0;
+    border-radius: 10px;
+}
+
